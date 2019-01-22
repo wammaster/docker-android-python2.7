@@ -1,4 +1,4 @@
-FROM runmymind/docker-android-sdk:alpine-standalone
+FROM runmymind/docker-android-sdk:ubuntu-standalone
 
 RUN apt-get update -qq
 RUN apt-get update && apt-get install -y --no-install-recommends \
